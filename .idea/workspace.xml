@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa59959d-efb1-4dc9-836d-0e79f9dedc56" name="Changes" comment="docs(project):">
+    <list default="true" id="fa59959d-efb1-4dc9-836d-0e79f9dedc56" name="Changes" comment="chore(project)= initialize">
+      <change afterPath="$PROJECT_DIR$/newsapi/src/main/java/cl/ucn/disc/dsm/slobos/newsapi/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/src/main/java/cl/ucn/disc/dsm/slobos/newsapi/NewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/src/main/java/cl/ucn/disc/dsm/slobos/newsapi/model/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/newsapi/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsapi/src/main/java/cl/ucn/disc/dsm/slobos/newsapi/TheNewsApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/newsapi/src/main/java/cl/ucn/disc/dsm/slobos/newsapi/TheNewsApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/newsapi/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,14 +55,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.newsapi">
     <configuration name="newsapi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -80,6 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheNewsapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cl.ucn.disc.dsm.slobos.newsapi.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cl.ucn.disc.dsm.slobos.newsapi.TheNewsApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.newsapi" />
@@ -94,7 +128,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639461047706</updated>
-      <workItem from="1639882014429" duration="51000" />
+      <workItem from="1639882014429" duration="3090000" />
+      <workItem from="1639885506037" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1639461638294</created>
@@ -117,8 +152,18 @@
       <option name="project" value="LOCAL" />
       <updated>1639462025154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore(project)= initialize">
+      <created>1639882240454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639882240454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -134,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="docs(project):" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(project):" />
+    <MESSAGE value="chore(project)= initialize" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(project)= initialize" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
